@@ -1,0 +1,113 @@
+body {margin:0;
+    background-color: ghostwhite;}
+
+
+.nav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.intro {border:1px solid ghostwhite ;
+    
+margin: 20px;
+line-height: 15px;
+background-color: lightgoldenrodyellow;}
+
+
+    
+}
+  
+li {
+    list-style-position: outside;
+}
+
+/* I was having problem combining divs */
+
+.first 
+{border:1px solid ghostwhite width:4px;
+margin: 20px;
+    line-height: 15px;
+    background-color: antiquewhite;
+    width: 600px;
+    height: 450px;
+    margin-left: auto;
+
+}
+.second
+{border:1px solid ghostwhite;
+margin: 20px;
+    line-height: 15px;
+    background-color: bisque;
+    width: 600px;
+    height: 500px;
+    margin-right: auto;
+
+}
+
+.next {border:1px solid ghostwhite;
+margin: 20px;
+    line-height: 15px;
+    background-color: lightcyan;
+    
+    
+}
+
+.top 
+{border:1px solid ghostwhite width:0px;
+margin: 20px;
+    line-height: 15px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+    
+}
+
+
+.third
+{border:1px solid ghostwhite;
+margin: 20px;
+    line-height: 15px;
+    background-color: lightcyan;
+    width: 720px;
+    height: 400px;
+    margin-left: auto;
+}
+
+.begin {
+    border-radius: 50%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    animation: zoom;
+    
+}
+h1 {font-family: 'Pompiere', cursive;}
+
+h3:hover {
+    background-color: yellow;
+}
+
+p {font-family: 'Handlee', cursive;
+    
+}
